@@ -13,6 +13,7 @@ header {
     background-color: beige;
     color: black;
     text-align: center;
+    font-size: 25px
 }
 
 header nav ul {
@@ -79,6 +80,11 @@ main section p {
 .project-sample h3 {
     font-size: 24px;
     margin-top: 10px;
+}
+
+.contact-me {
+    margin: 20px 0;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
