@@ -4,7 +4,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 header {
@@ -13,7 +12,7 @@ header {
     background-color: beige;
     color: black;
     text-align: center;
-    font-size: 25px
+    font-size: 25px;
 }
 
 header nav ul {
@@ -74,7 +73,6 @@ main section p {
     max-width: 300px;
     height: auto;
     border-radius: 75px;
-    
 }
 
 .project-sample h3 {
