@@ -1,54 +1,105 @@
-
 body {
-    background-color:cadetblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-sizing:border-box;
-
+    background-color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     padding: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:beige;
+    background-color: beige;
     color: black;
-    text-align: left;
-}
-
-#profile-pic {
-    width: 100px;
-    height: 100px;
-    size-adjust: 10px;
-}
-
-header h1 {
-    font-size: 50px;
     text-align: center;
-    color:black
 }
 
 header nav ul {
     list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin: 0 15px;
 }
 
-p {
-    font-size: 24px;
+header img#profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 10px 0;
 }
 
 main {
     width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    margin: 20px auto;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px){
-    
+main section {
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 700px){
-    
+main section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project-sample {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.project-sample img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-sample h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    main {
+        width: 100%;
+        padding: 0;
+    }
+
+    main section h2 {
+        font-size: 28px;
+    }
+
+    .project-sample img {
+        max-width: 100%;
+    }
 }
